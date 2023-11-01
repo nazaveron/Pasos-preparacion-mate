@@ -1,0 +1,36 @@
+.navBar {
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.mate-png {
+    width: 30px;
+    height: 40px;
+}
+
+.argentina-bandera {
+    width: 60px;
+    height: 50px
+}
+
+.title {
+    position: relative;
+    color: #fff;
+    animation: fadeInDown 1.5s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
